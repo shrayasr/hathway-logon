@@ -1,0 +1,11 @@
+Login to those pesky hathway networks that keep logging you out at important times
+
+Instructions
+============
+
+$ virtualenv env
+$ source env/bin/activate
+$ pip install -r requirements.txt
+$ cp conf.py.sample conf.py
+$ vim conf.py     # Set required properties
+$ python app.py
